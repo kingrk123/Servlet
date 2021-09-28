@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<!-- The front controller of this Spring Web application, responsible for handling all application requests -->
+	<servlet>
+		<servlet-name>CustomerController</servlet-name>
+		<servlet-class>com.nt.controller.CustomerController</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CustomerController</servlet-name>
+		<url-pattern>/regurl</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+    <welcome-file>customerreg.html</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+	</web-app>

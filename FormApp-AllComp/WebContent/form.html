@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Forms With All Components</title>
+</head>
+<body>
+<h1 style="color: red">Personal Details</h1>
+<form action="formurl">
+<table border="1">
+<tr>
+<td>Name</td>
+<td><input type="text" name="tname" value=""/></td>
+</tr>
+<tr>
+<td>Age</td>
+<td><input type="password" name="tage" value=""/></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="gen" value="M" checked="checked"/>Male
+	<input type="radio" name="gen" value="F" />FeMale</td>
+</tr>
+<tr>
+	<td>Address:</td>
+	<td><textarea name="taddress" rows="4" cols="20">
+	Enter Address
+	</textarea></td>
+</tr>
+<tr>
+	<td>Marital Status </td>
+	<td><input type="checkbox" name="ms" value="married"/>Married </td>
+</tr>
+<tr>
+	<td>Qualification</td>
+	<td>
+		<select name="qlfy">
+			<option value="B.Tech">Engg</option>
+			<option value="MBBS">Medical</option>
+			<option value="B.A">Arts</option>
+		</select>
+	</td>
+</tr>
+<tr>
+	<td>Courses</td>
+	<td>
+	<select name="crs" size="3" multiple="multiple">
+		<option value="java">Java PKG</option>
+		<option value=".net">.NET PKG</option>
+		<option value="Testing">Testing PKG</option>
+	</select>
+	</td>
+</tr>
+<tr>
+	<td>Hobbies </td>
+	<td><input type="checkbox" name="hb" value="read" checked/>Reading
+		<input type="checkbox" name="hb" value="stamps" checked/>stamp collection 
+		<input type="checkbox" name="hb" value="roaming" checked/>Travelling 
+	</td>
+</tr>
+<tr>
+	<td colspan="2">
+		<input type="submit"  value="submit" />
+		<input type="reset"  value="cancel" />
+	</td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Input</title>
+<script language="JavaScript" src="validation.js"></script>
+</head>
+<body>
+	<form action="vurl" onsubmit="return validate(this)">
+		<center>
+		<table>
+			<tr>
+				<th colspan="2">Voting App </th>
+			</tr>
+			<tr>
+				<td>Person Name:</td>
+				<td><input type="text" name="pname"><span id="nameErr"></span></td>
+			</tr>
+			<tr>
+				<td>Person Age :</td>
+				<td><input type="text" name="age"><span id="ageErr"></span></td>
+			</tr>
+			<tr>
+				<td><input type="hidden" value="no" name="vflag"/></td>
+				<td><input type="submit" value="Check Voting Criteria"></td>
+			</tr>
+		</table></center>
+	</form>
+</body>
+</html>

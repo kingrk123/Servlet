@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\ranvi\Desktop\Advance Java\Servlet\FileUploadApp"/>
+			<item value="C:\Users\ranvi\Desktop\Advance Java\Servlet\WAOne"/>
+			<item value="C:\Users\ranvi\Desktop\Advance Java\Servlet\EmpSearchDBApp-RD"/>
+			<item value="C:\Users\ranvi\Desktop\Advance Java\Servlet\PoolApp-UsingServerManagedJDBCConPool"/>
+			<item value="C:\Users\ranvi\Desktop\Advance Java\Servlet\PoolApp-UsingServerMangedJDBCConPool-WL"/>
+			<item value="C:\Users\ranvi\Desktop\Advance Java\Servlet\PoolApp-UsingServerManagedJDBCConPool-Resource"/>
+			<item value="F:\Servlet"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

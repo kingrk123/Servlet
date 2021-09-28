@@ -1,0 +1,39 @@
+package com.nt.dto;
+
+import java.io.Serializable;
+
+import lombok.Data;
+@Data
+public class AddNewCarDto implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
+	
+	private String selectcat;                                         
+	private String brand;                                              
+	private String model;                                              
+	private String carname;                                           
+	private String selecttype;                                         
+	private String seatingcap;                                        
+	private String platenum;                                           
+	private String fueltype;                                           
+	private String fuelcapacity;                                      
+	private String yearofmanu;                                         
+	private String colour;                                   
+	private String hourlycharge;                                       
+	private String freekminhourcharge;                                 
+	private String dailycharge;                                        
+	private String freekmindailycharge;                                
+	private String weeklycharge;                                       
+	private String freekminweeklycharge;                               
+	private String monthlycharge;                                      
+	private String insurancechargeperday;                              
+	private String freekminmonthlycharge;                              
+	private String details;                                            
+	private String branch;                                             
+	private String frontviewimage;                                     
+	private String rearviewimage;                                      
+	private String leftsideviewimage;                                 
+	private String rightsideviewimage;                                 
+	private String interiorviewimage;
+
+}

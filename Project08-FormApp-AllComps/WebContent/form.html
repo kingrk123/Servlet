@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form-Component</title>
+</head>
+<body>
+	
+	<form action="furl">
+		<center>
+		<table border="1">
+			<tr>
+				<th colspan="2"><h1 style="color:red">Personal Details</h1></th>
+			</tr>
+			<tr>
+				<td>NAME</td>
+				<td><input type="text" name="tname" value=""/></td>
+			</tr>
+			<tr>
+				<td>AGE</td>
+				<td><input type="password" name="tage" value=""/></td>
+			</tr>
+			<tr>
+				<td>GENDER</td>
+				<td>
+					<input type="radio" name="gen" value="M" checked="checked"/>MALE
+					<input type="radio" name="gen" value="F" checked="checked"/>FEMALE
+				</td>
+			</tr>
+			<tr>
+				<td>ADDRESS</td>
+				<td>
+					<textarea name="taddress" rows="4" cols="20"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>MARITAL STATUS</td>
+				<td><input type="checkbox" name="ms" value="married"/>MARRIED</td>
+			</tr>
+			<tr>
+				<td>QULIFICATION</td>
+				<td>
+					<select name="qlfy">
+						<option value="B.Tech">ENGG</option>
+						<option value="MBBS">MEDICAL</option>
+						<option value="B.A">ARTS</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>COURSES</td>
+				<td>
+					<select name="crs" size="3" multiple="multiple">
+						<option value="java">JAVA PCKG</option>
+						<option value=".net">NET PCKG</option>
+						<option value="testing">TESTING PCKG</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>HOBBIES</td>
+				<td>
+					<input type="checkbox" name="hb" value="read" checked="checked"/>READING
+					<input type="checkbox" name="hb" value="stamps"/>STAMP COLLECTION
+					<input type="checkbox" name="hb" value="roaming"/>TRAVELLING
+				</td>
+			</tr>
+			<tr>
+				<th colspan="2">
+					<input type="submit" value="submit"/>
+					
+				</th>
+			</tr>
+		</table></center>
+	</form>
+</body>
+</html>

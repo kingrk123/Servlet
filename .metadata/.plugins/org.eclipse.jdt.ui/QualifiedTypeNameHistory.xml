@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.servlet.ServletConfig"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSetMetaData"/>
+    <fullyQualifiedTypeName name="com.sun.xml.ws.rx.mc.protocol.wsmc200702.MakeConnectionElement"/>
+    <fullyQualifiedTypeName name="javax.annotation.Resource"/>
+    <fullyQualifiedTypeName name="javax.naming.InitialContext"/>
+    <fullyQualifiedTypeName name="com.nt.dao.StudentDAO"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletOutputStream"/>
+    <fullyQualifiedTypeName name="com.nt.service.StudentService"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="com.nt.vo.StudentVO"/>
+    <fullyQualifiedTypeName name="com.nt.dto.StudentDTO"/>
+    <fullyQualifiedTypeName name="com.nt.bo.StudentBO"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="com.nt.bo.EmployeeBO"/>
+    <fullyQualifiedTypeName name="com.nt.dao.EmployeeDAO"/>
+    <fullyQualifiedTypeName name="com.nt.dao.EmployeeDAOImpl"/>
+    <fullyQualifiedTypeName name="com.nt.service.EmployeeService"/>
+    <fullyQualifiedTypeName name="com.nt.service.EmployeeServiceImpl"/>
+    <fullyQualifiedTypeName name="com.nt.vo.EmployeeVO"/>
+    <fullyQualifiedTypeName name="com.nt.dto.EmployeeDTO"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.Driver"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Float"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="javazoom.upload.MultipartFormDataRequest"/>
+    <fullyQualifiedTypeName name="java.util.Enumeration"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="com.nt.bo.CustomerRegBo"/>
+</qualifiedTypeNameHistroy>

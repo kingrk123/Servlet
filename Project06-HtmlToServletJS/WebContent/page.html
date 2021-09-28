@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CountryApp</title>
+</head>
+<body>
+	<h1><center>SELECT COUNTRY AND GET STATE</center></h1>
+	<form action="curl" method="post" name="frm">
+		Country :   <select name="country" onchange="frm.submit()">
+						<option value="">-SELECT-</option>
+						<option value="India">India</option>
+						<option value="us">USA</option>
+						<option value="aus">Australia</option>
+					</select>
+	</form>
+</body>
+</html>

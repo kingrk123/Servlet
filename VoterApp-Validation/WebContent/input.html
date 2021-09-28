@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script language="JavaScript" src="validation.js"></script>
+</head>
+<body>
+<form action="voteurl" onsubmit="return validate(this)">
+<table border="2" align="center">
+<th colspan="2">Personal Details</th>
+<tr>
+<th>Person Name:</th>> 
+<th><input type="text" name="pname"/><span id="nameErr"></th></tr>
+<tr>
+<th>Person age:</th>
+<th> <input type="text" name="page"/><span id="ageErr"></th>
+</tr>
+<tr><th><input type="hidden" value="no" name="vflag"/></th></tr>
+<tr><th colspan="2"><input type="submit" value="Check Voting Eligibility"></th></tr>
+</table>
+</form>
+</body>
+</html>
